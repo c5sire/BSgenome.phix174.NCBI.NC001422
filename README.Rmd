@@ -36,11 +36,17 @@ devtools::install_github("c5sire/BSgenome.phix174.NCBI.NC001422")
 
 ## Usage
 
-```{r eval=FALSE}
-library(BSgenome.phix174.NCBI.NC001422)
+```{r}
+suppressPackageStartupMessages(
+  library(BSgenome.phix174.NCBI.NC001422)
+)
+
 
 phix174 <- BSgenome.phix174.NCBI.NC001422
+phix174
+
 dna <- phix174$NC_001422.1
+dna
 
 
 ```

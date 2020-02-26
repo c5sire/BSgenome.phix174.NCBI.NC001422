@@ -32,8 +32,26 @@ devtools::install_github("c5sire/BSgenome.phix174.NCBI.NC001422")
 ## Usage
 
 ``` r
-library(BSgenome.phix174.NCBI.NC001422)
+suppressPackageStartupMessages(
+  library(BSgenome.phix174.NCBI.NC001422)
+)
+
 
 phix174 <- BSgenome.phix174.NCBI.NC001422
+phix174
+#> phi-X174 genome:
+#> # organism: Escherichia virus phiX174 (phi-X174)
+#> # provider: NCBI
+#> # provider version: NC_001422.1
+#> # release date: Jul 2018
+#> # release name: NCBI Reference Sequence: NC_001422.1
+#> # 1 sequences:
+#> #   NC_001422.1                                                            
+#> # (use 'seqnames()' to see all the sequence names, use the '$' or '[[' operator
+#> # to access a given sequence)
+
 dna <- phix174$NC_001422.1
+dna
+#>   5386-letter "DNAString" instance
+#> seq: GAGTTTTATCGCTTCCATGACGCAGAAGTTAACACT...CGCTTCGATAAAAATGATTGGCGTATCCAACCTGCA
 ```

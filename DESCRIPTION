@@ -16,3 +16,4 @@ release_date: Jul 2018
 release_name: NCBI Reference Sequence: NC_001422.1
 source_url: https://www.ncbi.nlm.nih.gov/nuccore/NC_001422.1
 biocViews: AnnotationData, Genetics, BSgenome, phix174
+Remotes: Bioconductor/GenomeInfoDbData
