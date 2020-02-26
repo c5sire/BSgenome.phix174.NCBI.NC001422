@@ -16,7 +16,8 @@ state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 <!-- badges: end -->
 
-The goal of BSgenome.phix174.NCBI.NC001422 is to …
+The goal of BSgenome.phix174.NCBI.NC001422 is to provide a small
+reference genome for testing purposes.
 
 ## Installation
 
