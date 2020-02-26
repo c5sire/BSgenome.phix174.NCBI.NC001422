@@ -2,6 +2,10 @@ Package: BSgenome.phix174.NCBI.NC001422
 Title: Coliphage Phi-X174 Complete Genome
 Description: Escherichia virus phiX174. Viruses; Microviridae; Bullavirinae; Sinsheimervirus.
 Version: 1.0.0
+Authors@R: person("Reinhard", "Simon", email = "rsimon64@gmail.com",
+                  role = c("aut", "cre"),
+                  comment = c(ORCID = "0000-0002-4608-9077")
+                  )
 Author: Reinhard Simon
 Maintainer: Reinhard Simon <rsimon64@gmail.com>
 Depends: BSgenome (>= 1.50.0)
