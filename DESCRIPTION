@@ -16,7 +16,7 @@ organism: Escherichia virus phiX174
 common_name: phi-X174
 provider: NCBI
 provider_version: NC_001422.1
-release_date: Jul 2018
+release_date: Jul 2018  
 release_name: NCBI Reference Sequence: NC_001422.1
 source_url: https://www.ncbi.nlm.nih.gov/nuccore/NC_001422.1
 biocViews: AnnotationData, Genetics, BSgenome, phix174
