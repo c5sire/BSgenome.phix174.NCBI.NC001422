@@ -11,10 +11,6 @@
   Escherichia virus phiX174. Viruses; Microviridae; Bullavirinae; Sinsheimervirus.
 }
 
-\details{
-  
-}
-
 \note{
   This BSgenome data package was made from the following source data files:
   \preformatted{
