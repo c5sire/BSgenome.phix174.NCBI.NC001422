@@ -25,8 +25,9 @@ You can install the released version of BSgenome.phix174.NCBI.NC001422
 with:
 
 ``` r
-install.packages("devtools)
-devtools::install_github("c5sire/BSgenome.phix174.NCBI.NC001422")
+install.packages("remotes")
+remotes::install_github("c5sire/BSgenome.phix174.NCBI.NC001422", 
+  dependencies = TRUE)
 ```
 
 ## Usage
